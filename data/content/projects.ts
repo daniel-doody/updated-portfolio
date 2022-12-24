@@ -4,6 +4,15 @@ import { Project } from 'types';
 const projects: Project[] = [
   {
     id: 0,
+    title: 'Executive Compensation Analyst',
+    desc: 'Insight & benchmarking of executive comp data for Fortune-1000 companies',
+    img: '/static/projects/executive-comp-analyzer.png',
+    link: '/',
+    github: 'https://github.com/daniel-doody/Executive-Comp-Analyzer',
+    tags: ['Express', 'MongoDB', 'React', 'OAuth'],
+  },
+  {
+    id: 1,
     title: 'Danbnb',
     desc: 'A booking website with advanced search, date picker & mapbox functionality.',
     img: '/static/projects/danbnb.png',
@@ -12,22 +21,13 @@ const projects: Project[] = [
     tags: ['React', 'NextJS', 'TailwindCSS'],
   },
   {
-    id: 1,
+    id: 2,
     title: 'My Notes',
     desc: 'An note-taking app with categories/tags, markdown support, filtering, etc.',
     img: '/static/projects/my-notes.png',
     link: 'https://dans-notes-app.netlify.app',
     github: 'https://github.com/daniel-doody/my-notes-app',
     tags: ['React', 'Typescript', 'TailwindCSS', 'Bootstrap'],
-  },
-  {
-    id: 2,
-    title: 'The Learning Den',
-    desc: 'A video streaming platform using YouTube API, displaying my favorite coding channels.',
-    img: '/static/projects/video-streaming.png',
-    link: 'https://dans-video-streaming.netlify.app/',
-    github: 'https://github.com/daniel-doody/video-streaming-platform',
-    tags: ['React', 'YoutubeAPI', 'Sass', 'MUI'],
   },
 ];
 
