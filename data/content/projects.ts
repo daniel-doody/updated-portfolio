@@ -6,7 +6,7 @@ const projects: Project[] = [
     id: 0,
     title: 'Executive Compensation Analyst',
     desc: 'Insight & benchmarking of executive comp data for Fortune-1000 companies',
-    img: '/static/projects/executive-comp-analyzer.png',
+    img: '/static/projects/exec-comp-analyzer.png',
     link: '/',
     github: 'https://github.com/daniel-doody/Executive-Comp-Analyzer',
     tags: ['Express', 'MongoDB', 'React', 'OAuth'],
