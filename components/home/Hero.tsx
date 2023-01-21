@@ -11,8 +11,8 @@ function Hero() {
         <p className='text-xl mb-5'>Hey, I'm Daniel.</p>
         <h1 className='heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg'>
           I enjoy{' '}
-          <span className='heroShiny1 text-fun-pink'>building scalable</span>{' '}
-          web + mobile <span className='heroShiny2 text-fun-pink'>apps.</span>{' '}
+          <span className='heroShiny1 text-fun-pink'>building + scaling</span>{' '}
+          web apps.
           {/* web applications */}
           <img
             className='sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]'
@@ -67,7 +67,7 @@ function Hero() {
           smooth={true}
           duration={500}
         >
-          <div className='cursor-pointer font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors'>
+          <div className='cursor-pointer flex font-bold whitespace-nowrap px-10 py-4 text-fun-white border-2 text-xl rounded-full border-fun-white bg-bg hover:bg-fun-pink hover:text-white hover:border-fun-pink transition-colors'>
             Take a Look
           </div>
         </ScrollLink>
