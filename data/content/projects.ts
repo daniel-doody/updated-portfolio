@@ -22,12 +22,12 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'My Notes',
-    desc: 'An note-taking app with categories/tags, markdown support, filtering, etc.',
+    title: 'AppAmp',
+    desc: 'An Application progress tracker that incentivizes good practices ',
     img: '/static/projects/my-notes.png',
-    link: 'https://dans-notes-app.netlify.app',
-    github: 'https://github.com/daniel-doody/my-notes-app',
-    tags: ['React', 'Typescript', 'TailwindCSS', 'Bootstrap'],
+    link: 'https://app-amp-daniel-doody.vercel.app/',
+    github: 'https://github.com/Application-Amplifier/appAmp',
+    tags: ['React', 'Typescript', 'PostgreSQL', 'Next.js'],
   },
 ];
 
