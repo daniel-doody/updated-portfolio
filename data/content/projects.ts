@@ -15,7 +15,7 @@ const projects: Project[] = [
     id: 1,
     title: 'AppAmp',
     desc: 'An Application progress tracker that incentivizes good practices ',
-    img: '/static/projects/my-notes.png',
+    img: '/static/projects/appamp-image.png',
     link: 'https://app-amp-daniel-doody.vercel.app/',
     github: 'https://github.com/Application-Amplifier/appAmp',
     tags: ['React', 'Typescript', 'PostgreSQL', 'Next.js'],
