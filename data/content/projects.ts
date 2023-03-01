@@ -6,7 +6,7 @@ const projects: Project[] = [
     id: 0,
     title: 'SkaleSafe',
     desc: 'A Kubernetes monitoring & alerting tool for auto-scaling metrics',
-    img: '/static/projects/exec-comp-analyzer.png',
+    img: '/static/projects/skalesafe-image.png',
     link: 'https://skalesafe.com/',
     github: 'https://github.com/oslabs-beta/SkaleSafe',
     tags: ['Kubernetes', 'TypeScript', 'NoSQL', 'GraphQL', 'Redis', 'React'],
